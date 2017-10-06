@@ -1,0 +1,26 @@
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {paragraph}{\nonumberline Contexte, situation du sujet}{3}{section*.2}
+\contentsline {paragraph}{\nonumberline Contexte, expose les enjeux}{3}{section*.3}
+\contentsline {paragraph}{\nonumberline Annonce du plan, 1-2 phrase pour annoncer chaque partie}{3}{section*.4}
+\contentsline {chapter}{\numberline {2}Plan d\IeC {\'e}taill\IeC {\'e}}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Les diff\IeC {\'e}rents types de bless\IeC {\'e}s}{4}{section.2.1}
+\contentsline {paragraph}{\nonumberline intro 2-3 lignes pour pr\IeC {\'e}senter l'id\IeC {\'e}e directrice}{4}{section*.5}
+\contentsline {subsection}{\numberline {2.1.1}Par balle}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Maladies et infections}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Par artillerie}{4}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Escouades et strat\IeC {\'e}gies militaires}{4}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}La gestion des bless\IeC {\'e}s sur le front}{5}{section.2.2}
+\contentsline {paragraph}{\nonumberline Des bless\IeC {\'e}s s\IeC {\'e}v\IeC {\`e}res et en surnombre}{5}{section*.6}
+\contentsline {subsection}{\numberline {2.2.1}Difficult\IeC {\'e} d'avoir des secours ad\IeC {\'e}quats}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Le chemin d'un bless\IeC {\'e}}{5}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Sur place}{5}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}La gestion des bless\IeC {\'e}s \IeC {\`a} l'arri\IeC {\`e}re}{6}{section.2.3}
+\contentsline {paragraph}{\nonumberline intro 2-3 lignes pour pr\IeC {\'e}senter l'id\IeC {\'e}e directrice}{6}{section*.7}
+\contentsline {subsection}{\numberline {2.3.1}Logistique}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}etc}{6}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Conclusion}{7}{chapter.3}
+\contentsline {paragraph}{\nonumberline R\IeC {\'e}ponse synth\IeC {\'e}tique, 1 para de 10-12 lignes}{7}{section*.8}
+\contentsline {chapter}{\numberline {4}Glossaire}{8}{chapter.4}
+\contentsline {chapter}{\numberline {5}Bibliographie}{10}{chapter.5}
+\contentsline {chapter}{\numberline {6}R\IeC {\'e}sum\IeC {\'e}}{12}{chapter.6}
+\contentsline {paragraph}{\nonumberline R\IeC {\'e}sum\IeC {\'e} de 160 mots}{12}{section*.10}

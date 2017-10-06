@@ -1,0 +1,158 @@
+\documentclass[a4paper, BCOR=0mm, fontsize=12pt, titlepage=firstiscover]{scrreprt}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[nomain, acronym, xindy, toc]{glossaries}
+\usepackage[xindy]{imakeidx}
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage{tocloft}
+
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+
+%--------------------------------------
+\include{glossary}
+%--------------------------------------
+\renewcommand{\thechapter}{}
+\renewcommand{\cftchapaftersnum}{}
+\renewcommand{\thesection}{\arabic{section}}
+%\renewcommand{\thesubsection}{\alph{subsection}}
+%--------------------------------------
+\fontfamily{Times}\fontseries{m}\selectfont
+\renewcommand{\familydefault}{Times}
+%--------------------------------------
+\makeglossaries 
+\makeindex
+%--------------------------------------
+% Formatting de la page de garde
+\titlehead{
+	\begin{minipage}[t]{10cm}
+		\flushleft
+		\includegraphics[width=0.3\linewidth]{pics/logo.png}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{7cm}
+		\flushright
+		Université de Caen, Normandie
+	\end{minipage}
+}
+
+\subject{Première Guerre Mondiale}
+\title{Techniques et progrès de la médecine de guerre en 14-18}
+%\subtitle{Rapport d'exposé}
+\date{}
+%\author{Morine PINOT \& Christopher JACQUIOT}
+\publishers{
+	\begin{minipage}[t]{7cm}
+		\flushleft
+		Licence informatique 
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{7cm}
+		\flushright
+		M. PINOT \& C.JACQUIOT
+	\end{minipage}
+}
+
+%---------------------------------
+
+\begin{document}
+	
+	% Compilation de la premiere de couverture 
+	
+	\maketitle
+	
+	% Compilation de la table des matières 
+	\tableofcontents
+	
+	
+	
+	\chapter{Introduction}
+	% 10-12 lignes
+	\paragraph{Contexte, situation du sujet}
+	\paragraph{Contexte, expose les enjeux} test\\\\
+	
+	%2-3 lignes
+	
+	{\centering \large \textbf{Problématique}}
+	\\
+	%5-6 lignes
+	\paragraph{Annonce du plan, 1-2 phrase pour annoncer chaque partie}
+	
+	
+	\chapter{Plan détaillé}
+	\section{Les différents types de blessés}
+	\paragraph{intro 2-3 lignes pour présenter l'idée directrice}
+		TODO a deux
+		\subsection{Par balle}
+		\subsection{Maladies et infections}
+		\subsection{Par artillerie}
+		\subsection{Escouades et stratégies militaires}
+	
+	\newpage
+	\section{La gestion des blessés sur le front}
+		\paragraph{Des blessés sévères et en surnombre}
+		Lors de cette guerre, de nouvelles armes et de nouveaux genres de blessures jamais vues auparavant ont été découvertes.
+		Jamais autant de blessures aussi sévères n'avaient été subies en aussi grand nombre.
+		Comment les médecins de guerres se sont ils adaptés à la gestions des blessés venant du front?
+		
+		\subsection{Difficulté d'avoir des secours adéquats}
+			\begin{itemize}
+				\item Des médecins non préparés à ces nouvelles blessures de guerre: stages de formation nécessaires\cite{manquedeffectif}
+				\item Manque d'effectifs parmi les médecins de guerre: certains ont aussi été mobilisés\cite{manquedeffectif}
+			\end{itemize}
+		\subsection{Le chemin d'un blessé}
+			% begin - end = un environnement particulier pour un style d'affichage particulier
+			% ici itemize = liste a puce
+			% chaque \item represente le debut d'une nouvelle puce
+			\begin{itemize}
+				\item Récupération par des \glspl{brancardier} ou des camarades\cite{medicineintrenches}
+				\item Redirection ou soins selon gravité des blessures au \gls{secoursdiv}\cite{medicineintrenches}
+				\item Transport par camion-ambulance sous anesthésiant vers l'\Gls{hopital}\footnote{Appelé Casualty Clearing Station (CCS) ou "station de gestion des victimes" pour l'armée britannique}\cite{brancardiers}\cite{medicineintrenches} à 15-20km du front pour y être soigné/opéré
+
+			\end{itemize}
+		\subsection{Sur place}
+			\begin{itemize}
+				\item Postes de secours divisionnaires dans les tranchées : tri des blessés et premier soins basiques
+				\item Ambulances chirurgicales près du front : premiers soins, radiologies et chirurgies précaires
+			\end{itemize}
+		\subsection{Triage}
+			\begin{itemize}
+				\item Légèrement blessé: Pas besoin de traitements intensifs, retournent au combat aussitôt traités.
+				\item Nécessite hospitalisation: Envoyé à l'arrière par ambulance à l'hôpital le plus proche.
+				\item Sans espoir: Peu de chances de survie, mis en confort mais sans peu de soins donnés, priorité aux moins blessés. \cite{triage}
+			\end{itemize}
+	\newpage
+	\section{La gestion des blessés à l'arrière}
+		\paragraph{intro 2-3 lignes pour présenter l'idée directrice}
+		\subsection{Logistique}
+		\subsection{etc}
+		TODO: momo
+	\chapter{Conclusion}
+		\paragraph{Réponse synthétique, 1 para de 10-12 lignes}
+		
+		
+	\chapter{Glossaire}
+		4-5 termes importants, 3-4 lignes max
+		
+
+		\printindex
+		\printglossaries
+	
+		\bibliographystyle{plain}
+		\bibliography{expose}
+	\chapter{Résumé}
+		\paragraph{Résumé de 160 mots}
+		
+		\footnotetext{
+			4-5 Mot-clés:
+			 \textbf{mot 1},
+			 \textbf{mot 2},
+			 \textbf{mot 3}, 
+			 \textbf{mot 4}, 
+			 \textbf{mot 5}}
+		
+	
+	
+\end{document}

@@ -1,0 +1,90 @@
+\ifglsentryexists{hopital}{}%
+{%
+\gls@defglossaryentry{hopital}%
+{%
+name={HOC},%
+sort={HOC},%
+type={main},%
+first={H\IeC {\^o}pital d'Orientation des \'Etapes\glsspace (HOC)},%
+firstplural={H\IeC {\^o}pital d'Orientation des \'Etapess\glsspace (HOCs)},%
+text={HOC},%
+plural={HOCs},%
+description={Hôpital d'Orientation des \'Etapes},%
+descriptionplural={Hôpital d'Orientation des \'Etapes\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={H\IeC {\^o}pital d'Orientation des \'Etapes},%
+longplural={H\IeC {\^o}pital d'Orientation des \'Etapess},%
+short={HOC},%
+shortplural={HOCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{secoursdiv}{}%
+{%
+\gls@defglossaryentry{secoursdiv}%
+{%
+name={poste de secours divisionnaire},%
+sort={poste de secours divisionnaire},%
+type={main},%
+first={poste de secours divisionnaire},%
+firstplural={poste de secours divisionnaires},%
+text={poste de secours divisionnaire},%
+plural={poste de secours divisionnaires},%
+description={Poste de secours avancé situé entre la première ligne du front appelée ligne de tir et la seconde appelée ligne de soutien. Il était principalement destiné à catégoriser les soins nécessaires pour rediriger les blessés vers les centres médicaux les plus adaptés ainsi qu'à promulguer les premiers soins les plus basiques.},%
+descriptionplural={Poste de secours avancé situé entre la première ligne du front appelée ligne de tir et la seconde appelée ligne de soutien. Il était principalement destiné à catégoriser les soins nécessaires pour rediriger les blessés vers les centres médicaux les plus adaptés ainsi qu'à promulguer les premiers soins les plus basiques.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{brancardier}{}%
+{%
+\gls@defglossaryentry{brancardier}%
+{%
+name={brancardier},%
+sort={brancardier},%
+type={main},%
+first={brancardier},%
+firstplural={brancardiers},%
+text={brancardier},%
+plural={brancardiers},%
+description={à faire},%
+descriptionplural={à faire},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
