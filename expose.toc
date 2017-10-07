@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {3.2}etc}{6}{subsection.2.3.2}
 \contentsline {chapter}{\numberline {}Conclusion}{7}{chapter.3}
 \contentsline {paragraph}{\nonumberline R\IeC {\'e}ponse synth\IeC {\'e}tique, 1 para de 10-12 lignes}{7}{section*.7}
-\contentsline {chapter}{\numberline {}Glossaire}{8}{chapter.4}
-\contentsline {chapter}{Bibliography}{10}{chapter*.8}
-\contentsline {chapter}{\numberline {}R\IeC {\'e}sum\IeC {\'e}}{11}{chapter.5}
-\contentsline {paragraph}{\nonumberline R\IeC {\'e}sum\IeC {\'e} de 160 mots}{11}{section*.9}
+\contentsline {chapter}{Glossaire et abbr\IeC {\'e}viations}{8}{section*.8}
+\contentsline {chapter}{Bibliography}{9}{chapter*.10}
+\contentsline {chapter}{\numberline {}R\IeC {\'e}sum\IeC {\'e}}{10}{chapter.4}
+\contentsline {paragraph}{\nonumberline R\IeC {\'e}sum\IeC {\'e} de 160 mots}{10}{section*.11}

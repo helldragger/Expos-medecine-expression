@@ -1,0 +1,22 @@
+;; This logfile was generated automatically by `xindy'
+;; at 07.10.2017  20:16:46
+;; Indexstyle: "C:\\Users\\Helldragger\\Desktop\\FAC\\exposés\\fr - santé et médecine 14-18\\N8ZVxeAbKn", Rawindex: "C:\\Users\\Helldragger\\Desktop\\FAC\\exposés\\fr - santé et médecine 14-18\\cDomyzLNXh", Output: "expose.acr"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+Letter-group: "„Ë€¼†€Ë¨—Ë" -> "B"
+Letter-group: "ÈÃÐÚ— — Ð—†ÃàËÐ ¨å¨Ð¨Ã¼¼€¨Ë—" -> "P"
+Letter-group: "¤Ã†" -> "H"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "„Ë€¼†€Ë¨—Ë" -> "B"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¤Ã†" -> "H"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ÈÃÐÚ— — Ð—†ÃàËÐ ¨å¨Ð¨Ã¼¼€¨Ë—" -> "P"

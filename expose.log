@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.6)  7 OCT 2017 01:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.6)  7 OCT 2017 20:16
 entering extended mode
 **./expose.tex
 (expose.tex
@@ -1129,15 +1129,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 chapter .
 [7
 
-]
-chapter .
-[8
-
 ] (expose.ind)
-No file expose.acr.
-(expose.bbl [9
 
-]) [10
+Package glossaries Warning: Deprecated command \glossarystyle.
+ I recommend you switch to \setglossarystyle unless you want to maintain backwa
+rd compatibility on input line 136.
+
+(expose.acr) (expose.bbl [8
+
+
+
+]) [9
 
 ]
 chapter .
@@ -1145,59 +1147,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 			 \textbf{mot 5}}
+l.151 			 \textbf{mot 5}}
                          
 
 Package imakeidx Warning: Remember to run (pdf)latex again after calling
 (imakeidx)                `texindy expose.idx'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-[11
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+[10
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (expose.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `expose.out' has not changed.
-(rerunfilecheck)             Checksum: CDC15E9807FB782B9050B623C4850324;1279.
+(rerunfilecheck)             Checksum: 6B1DB8D657DA7C089443CC1B1A89778C;1301.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 13209 strings out of 493334
- 205594 string characters out of 3139234
- 450747 words of memory out of 3000000
- 16457 multiletter control sequences out of 15000+200000
+ 13215 strings out of 493334
+ 205680 string characters out of 3139234
+ 450777 words of memory out of 3000000
+ 16460 multiletter control sequences out of 15000+200000
  33151 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,66p,8819b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{glo:hopital} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:secoursdiv} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:brancardier} has been referenced but does not e
-xist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-su
-per/sfrm1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1
-728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1200.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/cm-super/sfsx2488.pfb>
-Output written on expose.pdf (11 pages, 195726 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfrm1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
+m1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1200.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx2488.pfb>
+Output written on expose.pdf (10 pages, 197302 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
