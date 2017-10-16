@@ -23,9 +23,6 @@
 \providecommand*\glsXpageXhyperemph[2]{\setentrycounter[#1]{page}\hyperemph{#2}}
 \providecommand*\glsXpageXglsignore[2]{\setentrycounter[#1]{page}\glsignore{#2}}
 \begin{theglossary}\glossaryheader
-\glsgroupheading{B}\relax\glsresetentrylist
-\glossentry{brancardier}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{5}}}\glsgroupskip
 \glsgroupheading{H}\relax\glsresetentrylist
 \glossentry{hopital}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{5}}}\glsgroupskip

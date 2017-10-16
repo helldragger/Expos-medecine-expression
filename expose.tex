@@ -10,15 +10,19 @@
 \usepackage[margin=1in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{mathptmx}
+%\usepackage{times}
 
 %--------------------------------------
 \include{glossary}
 %--------------------------------------
+\renewcommand{\contentsname}{Sommaire}
+\renewcommand{\bibname}{Bibliographie}
 %\renewcommand{\thechapter}{}
 %\renewcommand{\cftchapaftersnum}{}
 \renewcommand{\thesection}{\Roman{section}}
 %\renewcommand{\thesubsection}{\alph{subsection}}
 %--------------------------------------
+
 \fontfamily{Times}\fontseries{m}\selectfont
 \renewcommand{\familydefault}{Times}
 %--------------------------------------
@@ -69,90 +73,165 @@
 	
 	% Compilation de la table des matières 
 	\tableofcontents
-	
+
 	
 	
 	\chapter{Introduction}
 	% 10-12 lignes
-	\paragraph{Contexte, situation du sujet}
-	\paragraph{Contexte, expose les enjeux} test\\\\
+	\paragraph{14-18, un nouveau type de guerre} % contexte 
+	La guerre as tout juste débutée, des milliers de jeunes soldats partent pour le front.
+	L'Europe n'as pas vu de guerre sur son territoire depuis la guerre Franco-Prussienne, finie en 1871, 43 ans plus tôt.
+	De nouvelles armes de guerre ont depuis été développées, la science as continué de progresser.
+	Mais en ce début de guerre mondiale, beaucoup d'entre elles n'avaient pas encore été véritablement testées.
 	
+	\paragraph{} 
+	C'est dans la méconnaissance du potentiel mortel de ces armes que celles ci vont être utilisées pour la première fois à grande échelle, des deux cotés.
+	La logistique médicale n'as alors jamais eu à gérer autant de patients, ni à traiter certaines blessures jusqu'alors parfois impensables.
+	C'est sur le point de vue de l'évolution de la logistique médicale et des soins dispensés que nous nous demandons alors:
+	\\\\
 	%2-3 lignes
 	
-	{\centering \large \textbf{Problématique}}
+	{\centering \large \textbf{De quelles façons étaient organisées le traitement des blessés durant la Première Guerre Mondiale?}}
 	\\
 	%5-6 lignes
-	\paragraph{Annonce du plan, 1-2 phrase pour annoncer chaque partie}
+	\paragraph{}
+	Tout d'abord, nous allons nous pencher sur les raisons qui ont poussé la médecine à l'innovation.
+	Nous allons pour cela parler des nouvelles blessures infligées par de nouvelles armes.
+	Ensuite, nous discuterons de la gestion de ces blessés sur le front même, qui se repose sur la classification par gravité de leurs blessures que nous verrons aussi.
+	Enfin, nous conclurons sur leur gestion hors des tranchées, l'évolution logistique, organisationnelle et médicale qui as été primordiale pour traiter ces patients efficacement.
 	
 	
 	\chapter{Plan détaillé}
 	\section{Les différents types de blessés}
-	\paragraph{intro 2-3 lignes pour présenter l'idée directrice}
-		TODO a deux
-		\subsection{Par balle}
-		\subsection{Maladies et infections}
-		\subsection{Par artillerie}
-		\subsection{Escouades et stratégies militaires}
+		\paragraph{Première guerre de ce genre}
+		De nouvelles technologies d'armes furent testées pour la première fois en combat.
+		Mal-préparés pour lutter contre ces nouvelles menaces, le bilan des blessés est inattendu.
 	
-	\newpage
+		\subsection{Les nouvelles armes}
+			De nouvelles technologies mortelles sont arrivées sur le champ de bataille dans les deux camps:
+			\begin{itemize}
+				\item Barbelés
+				\item Mitraillettes lourdes et Lance-flamme
+				\item Armes chimiques
+				\item Artilleries
+			\end{itemize}
+		\subsection{Les nouvelles protections}
+			Pour contrer ces armes, il a fallu inventer de nouvelles protections pour les soldats:
+			\begin{itemize}
+				\item Masque à Gaz
+				\item Casques en métal
+				\item Boucliers et blindages\footnote{Dont la "pelle-bouclier" MacAdam (ou Pelle de Hughes) des canadiens}
+			\end{itemize}
+		\subsection{Les nouvelles blessures et maladies}
+			Et pourtant, cela ne les as pas toujours protégé de dégâts trop souvent mortels, pour certains même inédits:
+			\begin{itemize}
+				\item Brûlures graves
+				\item Défigurations importantes 
+				\item Maladies nerveuses \& mentales (ex Obusite)
+				\item Blessures chimiques
+				\item Maladies due au manque d'hygiène
+			\end{itemize}
+		
+	
 	\section{La gestion des blessés sur le front}
 		\paragraph{Des blessés sévères et en surnombre}
 		Lors de cette guerre, de nouvelles armes et de nouveaux genres de blessures jamais vues auparavant ont été découvertes.
 		Jamais autant de blessures aussi sévères n'avaient été subies en aussi grand nombre.
 		Comment les médecins de guerres se sont ils adaptés à la gestions des blessés venant du front?
 		
-		\subsection{Difficulté d'avoir des secours adéquats}
-			\begin{itemize}
-				\item Des médecins non préparés à ces nouvelles blessures de guerre: stages de formation nécessaires\cite{manquedeffectif}
-				\item Manque d'effectifs parmi les médecins de guerre: certains ont aussi été mobilisés\cite{manquedeffectif}
-			\end{itemize}
+		%\subsection{Difficulté d'avoir des secours adéquats}
+		%	\begin{itemize}
+		%		\item Des médecins non préparés à ces nouvelles blessures de guerre: stages de formation nécessaires\cite{manquedeffectif}
+		%		\item Manque d'effectifs parmi les médecins de guerre: certains ont aussi été mobilisés\cite{manquedeffectif}
+		%	\end{itemize}
 		\subsection{Le chemin d'un blessé}
+			Blessé dans le no man's land, s'il n'est pas trop malchanceux, un soldat peut être récupéré voire soigné:
 			% begin - end = un environnement particulier pour un style d'affichage particulier
 			% ici itemize = liste a puce
 			% chaque \item represente le debut d'une nouvelle puce
 			\begin{itemize}
-				\item Récupération par des \glspl{brancardier} ou des camarades\cite{medicineintrenches}
-				\item Redirection ou soins selon gravité des blessures au \gls{secoursdiv}\cite{medicineintrenches}
-				\item Transport par camion-ambulance sous anesthésiant vers l'\Gls{hopital}\footnote{Appelé Casualty Clearing Station (CCS) ou "station de gestion des victimes" pour l'armée britannique}\cite{brancardiers}\cite{medicineintrenches} à 15-20km du front pour y être soigné/opéré
+				\item Récupération par des brancardiers ou des camarades
+				\item Redirection ou soins selon gravité des blessures au \gls{secoursdiv}
+				\item Transport par camion-ambulance sous anesthésiant vers l'\Gls{hopital}\footnote{Appelé Casualty Clearing Station (CCS) ou "station de gestion des victimes" pour l'armée britannique} à 15-20km du front
 
 			\end{itemize}
-		\subsection{Sur place}
+		\subsection{Sur le front}
+			Une fois récupérés des premières lignes, les blessés passent par des centres de soin et de triage préliminaires:
 			\begin{itemize}
 				\item Postes de secours divisionnaires dans les tranchées : tri des blessés et premier soins basiques
 				\item Ambulances chirurgicales près du front : premiers soins, radiologies et chirurgies précaires
 			\end{itemize}
-		\subsection{Triage}
+		\subsection{Triage des blessés}
+			Pour ne pas surcharger les hôpitaux de l'arrière, et pouvoir soigner le plus de blessés possible, les traitements réservés aux soldats sont triés par gravité de leurs blessures:
 			\begin{itemize}
 				\item Légèrement blessé: Pas besoin de traitements intensifs, retournent au combat aussitôt traités.
 				\item Nécessite hospitalisation: Envoyé à l'arrière par ambulance à l'hôpital le plus proche.
-				\item Sans espoir: Peu de chances de survie, mis en confort mais sans peu de soins donnés, priorité aux moins blessés. \cite{triage}
+				% La fin des haricots, aka :
+				% Les carottes sont cuites, aka:
+				\item Trop gravement blessé: Peu de chances de survie, mis en confort mais peu de soins prodigués, priorité aux moins blessés par manque de moyens. %\cite{triage}
 			\end{itemize}
 	\newpage
+
 	\section{La gestion des blessés à l'arrière}
-		\paragraph{intro 2-3 lignes pour présenter l'idée directrice}
+		
+		\paragraph{Des progrès médicaux rapides}
+		Les médecins de guerre qualifiés peu nombreux, il était urgent de coordonner la gestion des blessés en surnombre venant du front.
+		Beaucoup d'innovations ont été nécessaires pour soigner ces nouveaux cas.
+		
+		
 		\subsection{Logistique}
-		\subsection{etc}
-		TODO: momo
+		\begin{itemize}
+			\item Transport en ambulance/train
+			\item Hopitaux de base
+			\item Hopitaux locaux
+			\item Convalescence
+		\end{itemize}
+		\subsection{Evolution de l'organisation des hôpitaux}
+		\begin{itemize}
+			\item Apparition de nouvelles spécialisations, domaines
+			\item Optimisation de l'organisation, plus de chirurgies, moins de salle, besoin de coordination
+		\end{itemize}
+		\subsection{Nouvelles techniques médicales}
+		\begin{itemize}
+			\item Outils de guérison
+			\item Chirurgie (Greffes, extractions sensibles, prothèses)
+			\item Transfusion sanguines
+		\end{itemize}
+		%(
+		%T - blessés 
+		%P - Pas mort
+		%HOC - déplaçables
+		%HB - traitement + avancé
+		%HL - traités
+		%)
 	\chapter{Conclusion}
 		\paragraph{Réponse synthétique, 1 para de 10-12 lignes}
 
 	\printindex
+	\nocite{*}
 	\glossarystyle{altlist}
 	\printglossary[title=Glossaire et abbréviations,toctitle=Glossaire et abbréviations]
 	
 	\bibliographystyle{plain}
 	\bibliography{expose}
 	
-	\chapter{Résumé}
-		\paragraph{Résumé de 160 mots}
+	\chapter*{Résumé}
+		\addcontentsline{toc}{chapter}{Résumé}
+		\paragraph{Une guerre nouvelle et meurtrière}
+		L'utilisation en masse d'armes plus dévastatrices que jamais, la première guerre mondiale a vu trépasser beaucoup plus de victimes et de victimes que prévu.
+		Mal grès les avancées en protections personnelles et les débuts des chars d'assaut, beaucoup de soldats seront défigurés ou handicapés à vie.
+		Beaucoup ne pourrons pas être secourus dans les no man's land, et pour les chanceux qui ont pu y être récupérés, certains types de blessures seront laissées non-traitées, en faveur du traitement de blessés moins coûteux en précieuses ressources médicales. 
+		La médecine a du évoluer au cours de cette guerre pour traiter correctement certaines blessures et améliorer les chances de survies et de retour à la vie normale des patients.
+		De nouvelles disciplines de médecine et de chirurgie seront découvertes, de nouveaux remèdes, anesthésies et de nouveaux systèmes comme les rhésus sanguins seront mis en place au cours de ces quatre longues années...     
+		
 		
 		\footnotetext{
 			4-5 Mot-clés:
-			 \textbf{mot 1},
-			 \textbf{mot 2},
-			 \textbf{mot 3}, 
-			 \textbf{mot 4}, 
-			 \textbf{mot 5}}
+			 \textbf{médecine},
+			 \textbf{WWI},
+			 \textbf{évolution}, 
+			 \textbf{blessés}, 
+			 \textbf{gestion}}
 		
 	
 	
