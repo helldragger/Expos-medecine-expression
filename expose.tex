@@ -7,7 +7,7 @@
 \usepackage[xindy]{imakeidx}
 \usepackage[nottoc, notlof, notlot]{tocbibind}
 \usepackage{tocloft}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=2.5cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{mathptmx}
 %\usepackage{times}
@@ -76,7 +76,8 @@
 
 	
 	
-	\chapter{Introduction}
+	\chapter*{Introduction}
+	\addcontentsline{toc}{chapter}{Introduction}
 	% 10-12 lignes
 	\paragraph{14-18, un nouveau type de guerre} % contexte 
 	La guerre as tout juste débutée, des milliers de jeunes soldats partent pour le front.
@@ -101,7 +102,9 @@
 	Enfin, nous conclurons sur leur gestion hors des tranchées, l'évolution logistique, organisationnelle et médicale qui as été primordiale pour traiter ces patients efficacement.
 	
 	
-	\chapter{Plan détaillé}
+	\part*{Plan détaillé}
+	\addcontentsline{toc}{chapter}{Plan détaillé}
+	\newpage
 	\section{Les différents types de blessés}
 		\paragraph{Première guerre de ce genre}
 		De nouvelles technologies d'armes furent testées pour la première fois en combat.
@@ -131,7 +134,7 @@
 				\item Blessures chimiques
 				\item Maladies due au manque d'hygiène
 			\end{itemize}
-		
+	\newpage
 	
 	\section{La gestion des blessés sur le front}
 		\paragraph{Des blessés sévères et en surnombre}
@@ -155,7 +158,7 @@
 				\item Transport par camion-ambulance sous anesthésiant vers l'\Gls{hopital}\footnote{Appelé Casualty Clearing Station (CCS) ou "station de gestion des victimes" pour l'armée britannique} à 15-20km du front
 
 			\end{itemize}
-		\subsection{Sur le front}
+		\subsection{Récupération des blessés au front}
 			Une fois récupérés des premières lignes, les blessés passent par des centres de soin et de triage préliminaires:
 			\begin{itemize}
 				\item Postes de secours divisionnaires dans les tranchées : tri des blessés et premier soins basiques
@@ -180,18 +183,24 @@
 		
 		
 		\subsection{Logistique}
+		Après être revenus du front et stabilisés, les blessés sont répartis dans des hôpitaux du pays.
+		
 		\begin{itemize}
 			\item Transport en ambulance/train
-			\item Hopitaux de base
-			\item Hopitaux locaux
+			\item Hôpitaux de base
+			\item Hôpitaux locaux
 			\item Convalescence
 		\end{itemize}
-		\subsection{Evolution de l'organisation des hôpitaux}
+		\subsection{\'Evolution de l'organisation des hôpitaux}
+		La dangerosité de la guerre prit la population de surprise, il fallait donc s'organiser et vite.
+		
 		\begin{itemize}
 			\item Apparition de nouvelles spécialisations, domaines
 			\item Optimisation de l'organisation, plus de chirurgies, moins de salle, besoin de coordination
 		\end{itemize}
 		\subsection{Nouvelles techniques médicales}
+		Avec la venue de nouveaux types de blessures, la médecine a fait un grand pas en avant pendant la période de guerre
+		
 		\begin{itemize}
 			\item Outils de guérison
 			\item Chirurgie (Greffes, extractions sensibles, prothèses)
@@ -204,8 +213,12 @@
 		%HB - traitement + avancé
 		%HL - traités
 		%)
-	\chapter{Conclusion}
-		\paragraph{Réponse synthétique, 1 para de 10-12 lignes}
+	\chapter*{Conclusion}
+	\addcontentsline{toc}{chapter}{Conclusion}
+		\paragraph{}
+		Pendant la Première Guerre mondiale, l'armée a dû gérer une grande quantité de blessés, et rapidement. Une meilleure organisation des patients a été mise en place, autant sur le front qu'à l'arrière. Les premiers postes de secours mobiles ont été utilisés. De nombreux hôpitaux, métiers et soins ont vu le jour pour faire face aux blessures graves qu'a engendrées la guerre. Ainsi, la médecine a dû évoluer, permettant la création de spécialistes dans de nouvelles disciplines en tout genre, comme la chirurgie esthétique et du visage ainsi que la maitrise de techniques comme la transfusion sanguine. 
+		
+		Toutes ces avancées sont toujours d'actualité et en constante amélioration depuis. Les machines se sont perfectionnées et les diagnostics se sont précisés. Mais sans la guerre, ces disciplines seraient-elles aussi évoluées de nos jours ?
 
 	\printindex
 	\nocite{*}
@@ -226,7 +239,7 @@
 		
 		
 		\footnotetext{
-			4-5 Mot-clés:
+			Mot-clés:
 			 \textbf{médecine},
 			 \textbf{WWI},
 			 \textbf{évolution}, 
