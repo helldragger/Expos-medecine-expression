@@ -1,0 +1,281 @@
+\documentclass{beamer}
+
+\usetheme{keynote-vintage}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+%\usepackage{fontspec}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{dejavu}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{textcolour}{rgb}{0.37,0.34,0.27}
+\definecolor{davinci}{RGB}{148,77,23}
+
+\setbeamertemplate{background canvas}{\includegraphics [width=\paperwidth, height=\paperheight]{pics/Vintage.png}}
+
+\setbeamercolor{structure}{fg=textcolour}
+\setbeamertemplate{items}[circle]
+\setbeamerfont{structure}{family = \rmfamily}
+
+
+
+\setbeamerfont{title}{size = \large}
+\setbeamerfont{frametitle}{size = \tiny}
+
+
+\usefonttheme{structuresmallcapsserif}
+\usefonttheme{serif}
+\setbeamercolor{normal text}{fg=textcolour}
+
+\renewcommand{\tiny}{\fontsize{6pt}{7pt}\selectfont}
+\renewcommand{\scriptsize}{\fontsize{7pt}{10pt}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{8pt}{10pt}\selectfont}
+\renewcommand{\small}{\fontsize{10pt}{14pt}\selectfont}
+\renewcommand{\normalsize}{\fontsize{10pt}{12pt}\selectfont}
+\renewcommand{\large}{\fontsize{12pt}{20pt}\selectfont}
+\renewcommand{\Large}{\fontsize{20pt}{33pt}\selectfont}
+\renewcommand{\LARGE}{\fontsize{32pt}{43pt}\selectfont}
+\renewcommand{\huge}{\fontsize{43pt}{50pt}\selectfont}
+\renewcommand{\Huge}{\fontsize{76pt}{92pt}\selectfont}
+
+\setbeamerfont{enumerate item}{size=\LARGE}
+\setbeamerfont*{quote}{size=\large,shape=\itshape,series=\bfseries}
+\setbeamerfont{word frame}{size=\Large, family=\rmfamily}
+
+\newcommand{\titleframe}{
+	\setbeamertemplate{background canvas}{\includegraphics [width=\paperwidth, height=\paperheight]{pics/fond.jpg}}
+	
+	\begin{frame}
+		\maketitle
+	\end{frame}
+	\setbeamertemplate{background canvas}{\includegraphics [width=\paperwidth, height=\paperheight]{pics/Vintage.png}}
+}
+
+
+%%% An imageframe has one fullscreen image as background
+%%% and maybe some text on top.
+\newcommand{\imageframe}[2]{
+%	\setbeamertemplate{background}{%
+%		\parbox[c][\paperheight]{\paperwidth}{%
+%			\includegraphics[width=\paperwidth,height=\paperheight]{#1}
+%	}}
+	\begin{frame}
+		\begin{figure}[ht]
+			\includegraphics[width=0.9\linewidth, height=0.8\paperheight]{#1}
+			\caption{\large\usebeamercolor[fg]{normal text}\centering#2}
+		\end{figure}
+	\end{frame}
+}
+
+%%% A wordframe has one word (or few) big and centered
+\newcommand{\wordframe}[1]{
+	\begin{frame}
+		\bf\centering\usebeamerfont{word frame}#1
+	\end{frame}
+}
+
+%%% A defnframe defines a word or phrase
+\newenvironment{defnframe}[1]
+{
+	\begin{frame}
+		\usebeamerfont{title}\usebeamercolor[fg]{box title}\Large #1: \\
+		\vskip0.7cm
+		\usebeamercolor[fg]{normal text}\normalsize\itshape
+	}{\end{frame}}
+
+%%% A itemframe defines a list of items
+\newenvironment{itemframe}[1]
+{
+	\begin{frame}
+		
+
+		\usebeamerfont{title}\usebeamercolor[fg]{box title}\Large #1 \\
+		\vskip0.7cm
+		\usebeamercolor[fg]{normal text}\normalsize\itshape
+		
+	}{\end{frame}}
+
+\newcommand{\emptyslide}{\begin{frame}[plain]\end{frame}}
+
+% -----------------------------------
+
+\subject{Première Guerre Mondiale}
+\title{Techniques et progrès de la médecine de guerre en 14-18}
+%\subtitle{Rapport d'exposé}
+\date{}
+\author{\small Morine PINOT \& Christopher JACQUIOT}
+\institute{Université de Caen}
+
+\begin{document}
+	\beamertemplatenavigationsymbolsempty
+	%1ere de couverture
+	\titleframe
+	
+	% introduction
+	
+	\section{Introduction}
+	
+		\begin{frame}{Introduction}
+			\begin{itemize}
+				\item Première guerre de cette envergure et depuis 40 ans en Europe
+				\item Technologies nouvelles et non testées sur champ de bataille
+				\item Médecine encore relativement peu développée en général
+				\item Beaucoup de jeunes dont des médecins sont envoyés au front
+				\item Beaucoup d'entre eux reviennent gravement blessés
+			\end{itemize}
+			
+		\end{frame}
+	
+	% ^robematique
+	
+	\section{Problématique}
+	
+		\begin{wordframe}{De quelles façons était organisé le traitement des blessés durant la Première Guerre Mondiale?}
+			
+		\end{wordframe}
+	
+	% Sommaire
+	
+	\section*{Sommaire}
+		
+		\begin{frame}{Sommaire}
+			\tableofcontents
+		\end{frame}
+	
+	% plan detaillé
+	\section{Plan détaillé}
+		
+		% axe 1
+		
+		\subsection{Les différents types de blessés}
+			\begin{wordframe} {Les différents types de blessés}
+			\end{wordframe}
+			
+
+		
+	
+			\subsubsection{Les nouvelles armes}
+				\begin{itemframe}{De nouvelles armes A IMAGISER}
+					\begin{itemize}
+						\item Barbelés
+						\item Mitraillettes lourdes et Lance-flamme
+						\item Armes chimiques
+						\item Artilleries
+					\end{itemize}
+				\end{itemframe}
+			
+			\subsubsection{Les nouvelles protections}
+				\begin{itemframe}{De nouvelles protections A IMAGISER}
+				
+				\begin{itemize}
+					\item Masque à Gaz
+					\item Casques en métal
+					\item Boucliers et blindages\footnote{Dont la "pelle-bouclier" MacAdam des canadiens}
+				\end{itemize}
+			 	\end{itemframe}
+		
+		
+			\subsubsection{Les nouvelles blessures et maladies}
+				\begin{itemframe}{De graves blessures}
+					\begin{itemize}
+						\item Brûlures graves
+						\item Défigurations importantes 
+						\item Maladies nerveuses \& mentales (ex Obusite)
+						\item Blessures chimiques
+						\item Maladies due au manque d'hygiène
+					\end{itemize}
+				\end{itemframe}
+		
+		% axe 2
+		
+		
+		\subsection{La gestion des blessés sur le front}
+			\begin{wordframe} {La gestion des blessés sur le front}
+			\end{wordframe}
+		
+			\subsubsection{Le chemin d'un blessé}
+				\begin{itemframe}{Le chemin d'un blessé A IMAGISER}
+					\begin{itemize}
+					\item Récupération par des brancardiers ou des camarades
+					\item Redirection ou soins selon gravité des blessures au postes divisionnaires
+					\item Transport par camion-ambulance sous anesthésiant vers l'HOC à 15-20km du front
+					\end{itemize}
+				\end{itemframe}
+			
+			\subsubsection{Récupération des blessés au front}
+				\begin{itemframe}{Les soins près des tranchées A IMAGISER}
+					\begin{itemize}
+						\item Postes de secours divisionnaires dans les tranchées : tri des blessés et premier soins basiques
+						\item Ambulances chirurgicales près du front : premiers soins, radiologies et chirurgies précaires
+					\end{itemize}
+				\end{itemframe}
+			
+			
+			\subsubsection{Triage des blessés}
+				\begin{itemframe}{Le triage des blessés A IMAGISER}
+					\begin{itemize}
+					\item Légèrement blessé: Pas besoin de traitements intensifs, retournent au combat aussitôt traités.
+					\item Nécessite hospitalisation: Envoyé à l'arrière par ambulance à l'hôpital le plus proche.
+					% La fin des haricots, aka :
+					% Les carottes sont cuites, aka:
+					\item Trop gravement blessé: Peu de chances de survie, mis en confort mais peu de soins prodigués, priorité aux moins blessés par manque de moyens. %\cite{triage}
+				\end{itemize}
+				\end{itemframe}
+			
+		% axe 3
+		
+		
+		\subsection{La gestion des blessés à l'arrière}
+			
+			\begin{wordframe} {La gestion des blessés à l'arrière}
+			\end{wordframe}
+		
+			\subsubsection{Logistique}
+				\begin{imageframe}{pics/image-vide.jpg}{Le trajet d'un blessé selon son état}%trajet_arriere.png}
+					%inserer image de:
+					%(
+					%T - blessés a pied
+					%P - Pas mort cheval ou ambulance
+					%HOC - déplaçables train
+					%HB - traitement + avancé train
+					%HL - traités train
+					%)
+					
+				\end{imageframe}
+			
+			\subsubsection{\'Evolution de l'organisation des hôpitaux}
+				\begin{itemframe}{Les pratiques évoluent}
+					\begin{itemize}			
+						\item Apparition de nouvelles spécialisations, domaines
+						\item Optimisation de l'organisation, plus de chirurgies, moins de salle, besoin de coordination
+					\end{itemize}
+				\end{itemframe}
+				
+			
+			\subsubsection{Nouvelles techniques médicales}
+				\begin{itemframe}{Des avancées médicales A IMAGISER}	
+					\begin{itemize}			
+						\item Outils de guérison
+						\item Chirurgie (Greffes, extractions sensibles, prothèses)
+						\item Transfusion sanguines
+					\end{itemize}
+				\end{itemframe}
+				
+	% conclusion
+	\section{Conclusion}
+		\begin{itemframe}{Conclusion}
+			De quelles façons était organisé le traitement des blessés durant la Première Guerre Mondiale?
+			\begin{itemize}
+				\item Gestion pragmatique des blessés dans les tranchées 
+				\item Des progrès médicaux et technologiques forcés par la forte demande de soins
+				\item Nouvelles spécialisations médicales dédiées à de nouveaux types de blessures
+			\end{itemize}
+		\end{itemframe}
+
+\end{document}

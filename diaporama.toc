@@ -1,0 +1,17 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Probl\IeC {\'e}matique}{3}{0}{2}
+\beamer@sectionintoc {4}{Plan d\IeC {\'e}taill\IeC {\'e}}{5}{0}{3}
+\beamer@subsectionintoc {4}{1}{Les diff\IeC {\'e}rents types de bless\IeC {\'e}s}{5}{0}{3}
+\beamer@subsubsectionintoc {4}{1}{1}{Les nouvelles armes}{6}{0}{3}
+\beamer@subsubsectionintoc {4}{1}{2}{Les nouvelles protections}{7}{0}{3}
+\beamer@subsubsectionintoc {4}{1}{3}{Les nouvelles blessures et maladies}{8}{0}{3}
+\beamer@subsectionintoc {4}{2}{La gestion des bless\IeC {\'e}s sur le front}{9}{0}{3}
+\beamer@subsubsectionintoc {4}{2}{1}{Le chemin d'un bless\IeC {\'e}}{10}{0}{3}
+\beamer@subsubsectionintoc {4}{2}{2}{R\IeC {\'e}cup\IeC {\'e}ration des bless\IeC {\'e}s au front}{11}{0}{3}
+\beamer@subsubsectionintoc {4}{2}{3}{Triage des bless\IeC {\'e}s}{12}{0}{3}
+\beamer@subsectionintoc {4}{3}{La gestion des bless\IeC {\'e}s \IeC {\`a} l'arri\IeC {\`e}re}{13}{0}{3}
+\beamer@subsubsectionintoc {4}{3}{1}{Logistique}{14}{0}{3}
+\beamer@subsubsectionintoc {4}{3}{2}{\'Evolution de l'organisation des h\IeC {\^o}pitaux}{15}{0}{3}
+\beamer@subsubsectionintoc {4}{3}{3}{Nouvelles techniques m\IeC {\'e}dicales}{16}{0}{3}
+\beamer@sectionintoc {5}{Conclusion}{17}{0}{4}
