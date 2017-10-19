@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.6)  19 OCT 2017 01:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.6)  19 OCT 2017 22:13
 entering extended mode
 **./diaporama.tex
 (diaporama.tex
@@ -1411,23 +1411,23 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 ) (diaporama.aux)
 \openout1 = `diaporama.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 122.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1495,7 +1495,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 115.
+Package hyperref Info: Link coloring OFF on input line 122.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1505,9 +1505,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count168
 )
-LaTeX Info: Redefining \ref on input line 115.
-LaTeX Info: Redefining \pageref on input line 115.
-LaTeX Info: Redefining \nameref on input line 115.
+LaTeX Info: Redefining \ref on input line 122.
+LaTeX Info: Redefining \pageref on input line 122.
+LaTeX Info: Redefining \nameref on input line 122.
 
 (diaporama.out) (diaporama.out)
 \@outlinefile=\write5
@@ -1516,54 +1516,54 @@ LaTeX Info: Redefining \nameref on input line 115.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/DejaVuSerif-TLF/m/n on input line 11
-5.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 115.
+(Font)                  OT1/cmr/m/n --> T1/DejaVuSerif-TLF/m/n on input line 12
+2.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> T1/DejaVuSerif-TLF/bx/n on input line 
-115.
+122.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> T1/DejaVuSerif-TLF/bx/n on input line 
-115.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 115.
+122.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 115.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 115.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 115.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 122.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> T1/DejaVuSerif-TLF/m/it on input line 
-115.
+122.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> T1/DejaVuSerif-TLF/m/it on input line
- 115.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 115.
+ 122.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> T1/DejaVuSansMono-TLF/m/n on input lin
-e 115.
+e 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> T1/DejaVuSansMono-TLF/m/n on input lin
-e 115.
+e 122.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  T1/DejaVuSerif-TLF/m/n --> T1/DejaVuSerif-TLF/bx/n on i
-nput line 115.
+nput line 122.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T1/DejaVuSerif-TLF/m/it --> T1/DejaVuSerif-TLF/bx/it on
- input line 115.
+ input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/cmr/bx/n --> T1/DejaVuSerif-TLF/bx/n on input line 
-115.
+122.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  T1/DejaVuSerif-TLF/bx/n --> T1/DejaVuSerif-TLF/bx/n on 
-input line 115.
+input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 115.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/DejaVuSerif-TLF/m/it --> T1/DejaVuSerif-TLF/bx/it on
- input line 115.
+ input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/DejaVuSansMono-TLF/m/n --> T1/DejaVuSansMono-TLF/bx/
-n on input line 115.
+n on input line 122.
 
 (C:\Users\Helldragger\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translat
 or\dicts\translator-basic-dictionary\translator-basic-dictionary-English.dict
@@ -1593,56 +1593,56 @@ or\dicts\translator-theorem-dictionary\translator-theorem-dictionary-English.di
 ct
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 115.
+LaTeX Info: Redefining \includegraphics on input line 122.
  (diaporama.nav)
 LaTeX Font Info:    Try loading font information for T1+DejaVuSerif-TLF on inpu
-t line 115.
+t line 122.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\dejavu\t1dejavuserif-tlf.fd"
 File: T1DejaVuSerif-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSerif-TLF.
 )
 
 LaTeX Font Warning: Font shape `T1/DejaVuSerif-TLF/m/sc' undefined
-(Font)              using `T1/DejaVuSerif-TLF/m/n' instead on input line 115.
+(Font)              using `T1/DejaVuSerif-TLF/m/n' instead on input line 122.
 
 <pics/fond.jpg, id=40, 1463.4675pt x 960.58875pt>
 File: pics/fond.jpg Graphic file (type jpg)
  <use pics/fond.jpg>
-Package pdftex.def Info: pics/fond.jpg used on input line 118.
+Package pdftex.def Info: pics/fond.jpg used on input line 125.
 (pdftex.def)             Requested size: 364.19118pt x 273.14037pt.
  [1
 
 {C:/Users/Helldragger/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pic
 s/fond.jpg>]
 LaTeX Font Info:    Try loading font information for OMS+DejaVuSerif-TLF on inp
-ut line 133.
-LaTeX Font Info:    No file OMSDejaVuSerif-TLF.fd. on input line 133.
+ut line 140.
+LaTeX Font Info:    No file OMSDejaVuSerif-TLF.fd. on input line 140.
 
 
 LaTeX Font Warning: Font shape `OMS/DejaVuSerif-TLF/m/sc' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 133.
+(Font)              for symbol `textbullet' on input line 140.
 
 <pics/Vintage.png, id=49, 1025.8325pt x 770.88pt>
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 133.
+Package pdftex.def Info: pics/Vintage.png used on input line 140.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
 
 [2
 
  <./pics/Vintage.png>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 139.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 139.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `T1/DejaVuSerif-TLF/bx/n' in size <20> not avail
 able
 (Font)              Font shape `T1/DejaVuSerif-TLF/b/n' tried instead on input 
-line 139.
+line 146.
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 139.
+Package pdftex.def Info: pics/Vintage.png used on input line 146.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [3
 
@@ -1650,31 +1650,37 @@ Package pdftex.def Info: pics/Vintage.png used on input line 139.
 File: pics/Vintage.png Graphic file (type png)
 
 <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 149.
+Package pdftex.def Info: pics/Vintage.png used on input line 156.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [4
 
 ]
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 157.
+Package pdftex.def Info: pics/Vintage.png used on input line 164.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [5
 
 ]
+<pics/I1.png, id=101, 627.34375pt x 501.875pt>
+File: pics/I1.png Graphic file (type png)
+ <use pics/I1.png>
+Package pdftex.def Info: pics/I1.png used on input line 172.
+(pdftex.def)             Requested size: 276.56816pt x 218.52061pt.
 File: pics/Vintage.png Graphic file (type png)
- <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 171.
+
+<use pics/Vintage.png>
+Package pdftex.def Info: pics/Vintage.png used on input line 172.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
+ [6
 
-[6
+ <./pics/I1.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 182.
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 181.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 181.
+LaTeX Font Info:    Try loading font information for U+msb on input line 182.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1682,21 +1688,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: pics/Vintage.png Graphic file (type png)
 
 <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 181.
+Package pdftex.def Info: pics/Vintage.png used on input line 182.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [7
 
 ]
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 193.
+Package pdftex.def Info: pics/Vintage.png used on input line 194.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [8
 
 ]
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 199.
+Package pdftex.def Info: pics/Vintage.png used on input line 200.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
 
 [9
@@ -1704,64 +1710,110 @@ Package pdftex.def Info: pics/Vintage.png used on input line 199.
 ]
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 209.
+Package pdftex.def Info: pics/Vintage.png used on input line 210.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [10
 
 ]
+<pics/II2a.jpg, id=128, 412.97144pt x 296.307pt>
+File: pics/II2a.jpg Graphic file (type jpg)
+ <use pics/II2a.jpg>
+Package pdftex.def Info: pics/II2a.jpg used on input line 247.
+(pdftex.def)             Requested size: 110.62401pt x 79.37097pt.
+
+<pics/II2b.jpg, id=129, 72.27pt x 52.66676pt>
+File: pics/II2b.jpg Graphic file (type jpg)
+ <use pics/II2b.jpg>
+Package pdftex.def Info: pics/II2b.jpg used on input line 247.
+(pdftex.def)             Requested size: 110.62401pt x 80.62163pt.
 File: pics/Vintage.png Graphic file (type png)
- <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 217.
+
+<use pics/Vintage.png>
+Package pdftex.def Info: pics/Vintage.png used on input line 247.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [11
 
-]
+ <./pics/II2a.jpg> <./pics/II2b.jpg>]
+<pics/II3a.png, id=135, 108.405pt x 109.40875pt>
+File: pics/II3a.png Graphic file (type png)
+ <use pics/II3a.png>
+Package pdftex.def Info: pics/II3a.png used on input line 299.
+(pdftex.def)             Requested size: 73.7506pt x 74.43701pt.
+
+<pics/II3b.png, id=137, 108.405pt x 109.40875pt>
+File: pics/II3b.png Graphic file (type png)
+ <use pics/II3b.png>
+Package pdftex.def Info: pics/II3b.png used on input line 299.
+(pdftex.def)             Requested size: 73.7506pt x 74.43701pt.
+
+<pics/II3c.png, id=138, 108.405pt x 109.40875pt>
+File: pics/II3c.png Graphic file (type png)
+ <use pics/II3c.png>
+Package pdftex.def Info: pics/II3c.png used on input line 299.
+(pdftex.def)             Requested size: 73.7506pt x 74.43701pt.
 File: pics/Vintage.png Graphic file (type png)
 
 <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 229.
+Package pdftex.def Info: pics/Vintage.png used on input line 299.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [12
 
-]
+ <./pics/II3a.png> <./pics/II3b.png> <./pics/II3c.png>]
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 236.
+Package pdftex.def Info: pics/Vintage.png used on input line 306.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [13
 
-]
-<pics/image-vide.jpg, id=142, 602.25pt x 481.8pt>
-File: pics/image-vide.jpg Graphic file (type jpg)
- <use pics/image-vide.jpg>
-Package pdftex.def Info: pics/image-vide.jpg used on input line 240.
-(pdftex.def)             Requested size: 276.56969pt x 218.51358pt.
-File: pics/Vintage.png Graphic file (type png)
+] <pics/III1b.jpg, id=152, 401.5pt x 397.485pt>
+File: pics/III1b.jpg Graphic file (type jpg)
 
-<use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 240.
+<use pics/III1b.jpg>
+Package pdftex.def Info: pics/III1b.jpg used on input line 371.
+(pdftex.def)             Requested size: 61.4538pt x 61.4579pt.
+ <pics/III1c.jpg, id=153, 744.53156pt x 418.56375pt>
+File: pics/III1c.jpg Graphic file (type jpg)
+
+<use pics/III1c.jpg>
+Package pdftex.def Info: pics/III1c.jpg used on input line 371.
+(pdftex.def)             Requested size: 61.4496pt x 61.4534pt.
+ <pics/III1d.jpg, id=154, 144.54pt x 92.9874pt>
+File: pics/III1d.jpg Graphic file (type jpg)
+
+<use pics/III1d.jpg>
+Package pdftex.def Info: pics/III1d.jpg used on input line 371.
+(pdftex.def)             Requested size: 61.45624pt x 61.45984pt.
+ <pics/III1e.jpg, id=155, 521.95pt x 371.3875pt>
+File: pics/III1e.jpg Graphic file (type jpg)
+
+<use pics/III1e.jpg>
+Package pdftex.def Info: pics/III1e.jpg used on input line 371.
+(pdftex.def)             Requested size: 61.45258pt x 61.45763pt.
+File: pics/Vintage.png Graphic file (type png)
+ <use pics/Vintage.png>
+Package pdftex.def Info: pics/Vintage.png used on input line 371.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [14
 
- <./pics/image-vide.jpg>]
+ <./pics/III1b.jpg> <./pics/III1c.jpg> <./pics/III1d.jpg> <./pics/III1e.jpg>]
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 258.
+Package pdftex.def Info: pics/Vintage.png used on input line 380.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
-
-[15
+ [15
 
 ]
 File: pics/Vintage.png Graphic file (type png)
- <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 268.
+
+<use pics/Vintage.png>
+Package pdftex.def Info: pics/Vintage.png used on input line 390.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [16
 
 ]
 File: pics/Vintage.png Graphic file (type png)
  <use pics/Vintage.png>
-Package pdftex.def Info: pics/Vintage.png used on input line 279.
+Package pdftex.def Info: pics/Vintage.png used on input line 401.
 (pdftex.def)             Requested size: 364.19658pt x 273.14088pt.
  [17
 
@@ -1775,27 +1827,27 @@ Package pdftex.def Info: pics/Vintage.png used on input line 279.
 \tf@snm=\write8
 \openout8 = `diaporama.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 403.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 403.
  (diaporama.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 403.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 403.
 Package rerunfilecheck Info: File `diaporama.out' has not changed.
 (rerunfilecheck)             Checksum: D69789622CBB1BC6D0B7482EC4675DAF;470.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 403.
  ) 
 Here is how much of TeX's memory you used:
- 22918 strings out of 493334
- 473361 string characters out of 3139234
- 548125 words of memory out of 3000000
- 25821 multiletter control sequences out of 15000+200000
- 66238 words of font info for 74 fonts, out of 3000000 for 9000
+ 22967 strings out of 493334
+ 474109 string characters out of 3139234
+ 551143 words of memory out of 3000000
+ 25860 multiletter control sequences out of 15000+200000
+ 66659 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,67p,392b,525s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,67p,392b,682s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/dejavu/dejavuserif_t1-type1.enc}
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/dejavu/DejaVuSerif-Bold.pfb><C:/Program Files/MiKTeX 
@@ -1803,9 +1855,9 @@ eX 2.9/fonts/type1/public/dejavu/DejaVuSerif-Bold.pfb><C:/Program Files/MiKTeX
 .9/fonts/type1/public/dejavu/DejaVuSerif.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/helvetic/uhvr8a.pfb>
-Output written on diaporama.pdf (17 pages, 1153000 bytes).
+Output written on diaporama.pdf (17 pages, 3898624 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
+ 208 PDF objects out of 1000 (max. 8388607)
  52 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,6 +10,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{dejavu}
+%\usepackage{enumitem}
+
 
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
@@ -67,7 +69,7 @@
 %	}}
 	\begin{frame}
 		\begin{figure}[ht]
-			\includegraphics[width=0.9\linewidth, height=0.8\paperheight]{#1}
+			\includegraphics[width=0.9\linewidth, height=0.8\paperheight]{pics/#1}
 			\caption{\large\usebeamercolor[fg]{normal text}\centering#2}
 		\end{figure}
 	\end{frame}
@@ -101,6 +103,12 @@
 		
 	}{\end{frame}}
 
+
+
+
+\def\ux{0.1\linewidth}
+\def\uy{0.1\linewidth} 
+
 \newcommand{\emptyslide}{\begin{frame}[plain]\end{frame}}
 
 % -----------------------------------
@@ -111,7 +119,6 @@
 \date{}
 \author{\small Morine PINOT \& Christopher JACQUIOT}
 \institute{Université de Caen}
-
 \begin{document}
 	\beamertemplatenavigationsymbolsempty
 	%1ere de couverture
@@ -161,23 +168,17 @@
 		
 	
 			\subsubsection{Les nouvelles armes}
-				\begin{itemframe}{De nouvelles armes A IMAGISER}
-					\begin{itemize}
-						\item Barbelés
-						\item Mitraillettes lourdes et Lance-flamme
-						\item Armes chimiques
-						\item Artilleries
-					\end{itemize}
-				\end{itemframe}
+			
+			\begin{imageframe}{I1}{De nouvelles armes}
+			\end{imageframe}
 			
 			\subsubsection{Les nouvelles protections}
-				\begin{itemframe}{De nouvelles protections A IMAGISER}
-				
-				\begin{itemize}
-					\item Masque à Gaz
-					\item Casques en métal
-					\item Boucliers et blindages\footnote{Dont la "pelle-bouclier" MacAdam des canadiens}
-				\end{itemize}
+				\begin{itemframe}{De nouvelles protections}
+					\begin{itemize}
+						\item Masque à Gaz
+						\item Casques en métal
+						\item Boucliers et blindages\footnote{Dont la "pelle-bouclier" MacAdam des canadiens}
+					\end{itemize}
 			 	\end{itemframe}
 		
 		
@@ -200,7 +201,7 @@
 			\end{wordframe}
 		
 			\subsubsection{Le chemin d'un blessé}
-				\begin{itemframe}{Le chemin d'un blessé A IMAGISER}
+				\begin{itemframe}{Le chemin d'un blessé}
 					\begin{itemize}
 					\item Récupération par des brancardiers ou des camarades
 					\item Redirection ou soins selon gravité des blessures au postes divisionnaires
@@ -209,24 +210,93 @@
 				\end{itemframe}
 			
 			\subsubsection{Récupération des blessés au front}
-				\begin{itemframe}{Les soins près des tranchées A IMAGISER}
-					\begin{itemize}
-						\item Postes de secours divisionnaires dans les tranchées : tri des blessés et premier soins basiques
-						\item Ambulances chirurgicales près du front : premiers soins, radiologies et chirurgies précaires
-					\end{itemize}
-				\end{itemframe}
+			
+			\begin{frame}
+				\usebeamerfont{title}\usebeamercolor[fg]{box title}\Large Les soins aux tranchées \\
+				\vskip0.7cm
+				\usebeamercolor[fg]{normal text}\normalsize\itshape
+				\begin{columns}
+					\begin{column}{0.45\linewidth}
+						\begin{figure}
+							\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+							\includegraphics[width=0.8\linewidth]{pics/II2a}
+							
+							\caption{\tiny Poste de secours divisionnaire}
+						\end{figure}
+						\begin{itemize}
+							\item Tri des blessés
+							\item Premiers soins
+						\end{itemize}
+					\end{column}
+					
+					
+					\begin{column}{0.45\linewidth}
+						\begin{figure}
+							\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+							\includegraphics[width=0.8\linewidth]{pics/II2b}
+							
+							\caption{\tiny Ambulance chirurgicale}
+						\end{figure}
+						\begin{itemize}
+							\item Radiologies
+							\item Chirurgies basiques
+						\end{itemize}
+					\end{column}
+				\end{columns}
+					
+			\end{frame}
 			
 			
 			\subsubsection{Triage des blessés}
-				\begin{itemframe}{Le triage des blessés A IMAGISER}
-					\begin{itemize}
-					\item Légèrement blessé: Pas besoin de traitements intensifs, retournent au combat aussitôt traités.
-					\item Nécessite hospitalisation: Envoyé à l'arrière par ambulance à l'hôpital le plus proche.
-					% La fin des haricots, aka :
-					% Les carottes sont cuites, aka:
-					\item Trop gravement blessé: Peu de chances de survie, mis en confort mais peu de soins prodigués, priorité aux moins blessés par manque de moyens. %\cite{triage}
-				\end{itemize}
-				\end{itemframe}
+
+				\begin{frame}
+					\usebeamerfont{title}\usebeamercolor[fg]{box title}\Large Triage des blessés \\
+					\vskip0.7cm
+					\usebeamercolor[fg]{normal text}\normalsize\itshape
+					\begin{columns}
+						\begin{column}{0.3\linewidth}
+							\begin{figure}
+								\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+								\includegraphics[width=0.8\linewidth]{pics/II3a}
+
+								\caption{\tiny Légèrement blessé}
+							\end{figure}
+							\begin{itemize}
+								\item Traitement minime
+								\item Retourne au combat
+							\end{itemize}
+						\end{column}
+					
+						
+						\begin{column}{0.3\linewidth}
+							\begin{figure}
+								\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+								\includegraphics[width=0.8\linewidth]{pics/II3b}
+								
+								\caption{\tiny Hospitalisation nécessaire}
+							\end{figure}
+							\begin{itemize}
+								\item Premiers soins
+								\item Envoyé à l'arrière
+							\end{itemize}
+						\end{column}
+					
+						
+						\begin{column}{0.3\linewidth}
+							\begin{figure}
+								\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+								\includegraphics[width=0.8\linewidth]{pics/II3c}
+								
+								\caption{\tiny Blessures trop graves}
+							\end{figure}
+							\begin{itemize}
+								\item Aucun traitement
+								\item Laissé décéder
+							\end{itemize}
+						\end{column}
+								
+					\end{columns}
+				\end{frame}
 			
 		% axe 3
 		
@@ -237,17 +307,69 @@
 			\end{wordframe}
 		
 			\subsubsection{Logistique}
-				\begin{imageframe}{pics/image-vide.jpg}{Le trajet d'un blessé selon son état}%trajet_arriere.png}
-					%inserer image de:
-					%(
-					%T - blessés a pied
-					%P - Pas mort cheval ou ambulance
-					%HOC - déplaçables train
-					%HB - traitement + avancé train
-					%HL - traités train
-					%)
+			{\begin{frame}
+
+				\usebeamerfont{title}\usebeamercolor[fg]{box title}\Large Le trajet d'un blessé selon son état\\
+				\vskip0.7cm
+				\usebeamercolor[fg]{normal text}\normalsize\itshape
+				\begin{columns}
+				
+				
+					\begin{column}[t]{0.25\linewidth}
+						\begin{figure}
+							\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+							\includegraphics[width=0.8\linewidth, height=0.8\linewidth]{pics/III1b}
+							
+							\caption{\tiny Poste de secours}
+						\end{figure}
+						\begin{itemize}
+							\item \tiny Départ - camion
+							\item \tiny Triage des blessés et soins
+						\end{itemize}
+					\end{column}
+				
+					\begin{column}[t]{0.25\linewidth}
+						\begin{figure}
+							\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+							\includegraphics[width=0.8\linewidth, height=0.8\linewidth]{pics/III1c}
+							
+							\caption{\tiny HOE}
+						\end{figure}
+						\begin{itemize}
+							\item \tiny Départ - train
+							\item \tiny Soins des indéplaçables
+						\end{itemize}
+					\end{column}
+				
+					\begin{column}[t]{0.25\linewidth}
+						\begin{figure}
+							\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+							\includegraphics[width=0.8\linewidth, height=0.8\linewidth]{pics/III1d}
+							
+							\caption{\tiny Hôpital de campagne}
+						\end{figure}
+						\begin{itemize}
+							\item \tiny Départ - train
+							\item \tiny Soins plus avancés
+						\end{itemize}
+					\end{column}
+				
+					\begin{column}[t]{0.25\linewidth}
+						\begin{figure}
+							\setbeamertemplate{caption}{\raggedright\insertcaption\par}								
+							\includegraphics[width=0.8\linewidth, height=0.8\linewidth]{pics/III1e}
+							
+							\caption{\tiny Centre de Convalescence}
+						\end{figure}
+						\begin{itemize}
+							\item \tiny Repos et guérison
+							\item \tiny Suivi des traitements
+						\end{itemize}
+					\end{column}
 					
-				\end{imageframe}
+				\end{columns}
+			\end{frame}}
+			
 			
 			\subsubsection{\'Evolution de l'organisation des hôpitaux}
 				\begin{itemframe}{Les pratiques évoluent}
